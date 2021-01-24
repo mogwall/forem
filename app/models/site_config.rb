@@ -44,6 +44,8 @@ class SiteConfig < RailsSettings::Base
   field :apple_team_id, type: :string
   field :discord_key, type: :string
   field :discord_secret, type: :string
+  field :twitch_key, type: :string
+  field :twitch_secret, type: :string
 
   # Campaign
   field :campaign_call_to_action, type: :string, default: "Share your project"
